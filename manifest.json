@@ -1,7 +1,7 @@
 {
-  "latest_build_id": "0x52430002",
-  "version": "2.0.1",
-  "uf2_url": "https://raw.githubusercontent.com/jsanother1/firmware/main/releases/v2.0.0_0x52430002.uf2",
-  "uf2_sha256": "a1c35862ad6457ca4d8d8a3931441eb7cc1553a6bceb2c277f085f64f630f0f0",
-  "release_notes": "Adds idle heartbeat so firmware identity is reported even without mouse activity."
+  "latest_build_id": "0x52430003",
+  "version": "2.0.2",
+  "uf2_url": "https://raw.githubusercontent.com/jsanother1/firmware/main/releases/v2.0.1_0x52430003.uf2",
+  "uf2_sha256": "531b0bb8073a1896db2d0eb7e308282481505060cff4134433135ede7c8e3c8a",
+  "release_notes": "Fixes cold-boot USB enumeration failure (Unknown USB Device on a fresh PC boot) by gating the idle heartbeat on tud_mounted()."
 }
