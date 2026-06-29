@@ -2,6 +2,5 @@
   "latest_build_id": "0x52430005",
   "version": "2.0.2",
   "uf2_url": "https://raw.githubusercontent.com/jsanother1/firmware/main/releases/v2.0.2_0x52430005.uf2",
-  "uf2_sha256": "1ce4704ebf38b12e24c7ee6bac8951cd92e347feb0ade8d377d33074e58b1925",
-  "release_notes": "Fixes the rapid-fire passthrough sidechannel race: the host read the user-button state un-synchronised across cores, so a mouse plugged through the board could briefly lose the user's true hold mid-burst and stick on fire. The firmware now publishes the user buttons under mouse_spin and snapshots one value per send for both the output merge and the sidechannel report."
+  "uf2_sha256": "1ce4704ebf38b12e24c7ee6bac8951cd92e347feb0ade8d377d33074e58b1925"
 }
