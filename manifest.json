@@ -1,6 +1,6 @@
 {
-  "latest_build_id": "0x52430006",
-  "version": "2.0.2",
-  "uf2_url": "https://raw.githubusercontent.com/jsanother1/firmware/main/releases/v2.0.2_0x52430006.uf2",
-  "uf2_sha256": "ef14e2d494239ef8ba1ce65818868d013eaa7b461d58641d2876e5d15c75cd1e"
+  "latest_build_id": "0x52430007",
+  "version": "2.0.3",
+  "uf2_url": "https://raw.githubusercontent.com/jsanother1/firmware/main/releases/v2.0.3_0x52430007.uf2",
+  "uf2_sha256": "eef4e0ba6f64e2983856837cdaf2514d60bee0abb7ba6b9a995b97cf0266cc94"
 }
